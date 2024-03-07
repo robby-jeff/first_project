@@ -16,7 +16,7 @@ int main()
             int nbr;
             printf("veuillez entrer le nombre :");
             scanf("%d",&nbr);
-            printf("Pour n = %d l'algorithme renvoie : %d\n",nbr,fibo_iter(nbr));
+            printf("Pour n = %d la valeur est : %d\n",nbr,fibo_iter(nbr));
             printf("Tapez 1 si vous voulez faire un autre essai si non tapez 0\n");
             scanf("%d",&r);
         }
@@ -24,7 +24,7 @@ int main()
             int nbr;
             printf("veuillez entrer le nombre :");
             scanf("%d",&nbr);
-            printf("Pour n = %d l'algorithme renvoie : %d\n",nbr,fibo_recur(nbr));
+            printf("Pour n = %d la valeur est : %d\n",nbr,fibo_recur(nbr));
             printf("Tapez 1 si vous voulez faire un autre essai si non tapez 0\n");
             scanf("%d",&r);
         }
